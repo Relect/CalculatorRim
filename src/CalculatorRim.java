@@ -20,7 +20,11 @@ public class CalculatorRim {
             int num2 = StToInt.argToInt(arg2);
 
             int res = Calc.result(num1, num2, op);
-            System.out.println("Результат " + res);
+            if (arg1.matches("(I|(II)|(III)|(IV)|V|(VI)|(VII)|(VIII)|(IX)|X)")){
+                IntToRim Rim = new IntToRim();
+                System.out.println("Результат " + Rim.convert(res));
+            }
+            else System.out.println("Результат " + res);
 
         } catch (InputMismatchException e) {
             System.out.println("Неверный ввод");
