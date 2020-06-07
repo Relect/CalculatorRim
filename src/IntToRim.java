@@ -26,10 +26,7 @@ public class IntToRim {
     // преобразоывываем десятки
     private static String L(int in1, int in2) {
         if (in2 / 10 == 4) {
-          if (in1 == 1)
-            {
-                return "XC"; // если 90 то 100 - 10
-            }
+          if (in1 == 1) return "XC"; // если 90 то 100 - 10
           else return "XL";}  // если 40 то 50-10
         else {
             System.out.println(in1);
