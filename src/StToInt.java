@@ -12,7 +12,7 @@ public class StToInt {
                 argToInt=3;
                 break;
             case "IV":
-                argToInt=5;
+                argToInt=4;
                 break;
             case "V":
                 argToInt=5;

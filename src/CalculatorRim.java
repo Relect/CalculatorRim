@@ -24,7 +24,8 @@ public class CalculatorRim {
                 IntToRim Rim = new IntToRim();
                 System.out.println("Результат " + Rim.convert(res));
             }
-            else System.out.println("Результат " + res);
+            else
+                System.out.println("Результат " + res);
 
         } catch (InputMismatchException e) {
             System.out.println("Неверный ввод");
